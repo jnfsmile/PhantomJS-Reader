@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<testsuites>
+
+
+-<testsuite timestamp="2016-06-09T11:34:50" time="2.118" failures="2" tests="2" errors="0" name="Hub Menu">
+
+
+-<testcase time="1.569" name="Click on menu icon show hubMenu" classname="Hub Menu">
+
+
+-<screenshots>
+
+<screenshot>test/jasmine/spec/test-hubMenu\Click on menu icon show hubMenu\hubmenu-1.png</screenshot>
+
+</screenshots>
+
+<failure message="Expected '<div id="hubMenu" class="modal home" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><header class="header"><div class="container-fluid"><a class="label col-xs-6"><img src="resources/img/logo-grey.png" alt="amdocs-logo"></a><ul class="col-xs-6 headerMenu"><li><a class="searchButton"></a></li><li><div id="hubCloseButton" data-toggle="buttons"><a class="btn nav-toggle nav-toggle-wrapper active" href="#"></a></div></li></ul></div></header><div class="wrapper"><div class="scroller"><nav class="container-fluid"><ul class="mainNav row"><li class="col-xs-12"><a class="menuButton" data-page="highlights/mycases" href="#" title=""><img src="resources/img/highlights.png"> <span id="HighlightsLabel">Highlights<span></span></span></a></li><li class="col-xs-12"><a class="menuButton" data-page="cases/mycases" href="#" title=""><img src="resources/img/my-cases.png"> <span>My Cases</span></a></li><li class="col-xs-12"><a class="menuButton" data-page="community" href="#" title=""><img src="resources/img/community.png"> <span>Community</span></a></li><li class="col-xs-12"><a class="menuButton" data-page="documentation" href="#" title=""><img src="resources/img/documentation.png"> <span>Documentation</span></a></li><li class="col-xs-12"><a class="menuButton" data-page="contactus" href="#" title=""><img src="resources/img/contact-us.png"> <span>Contact Us</span></a></li></ul><div class="logoutButton"><button type="button"><img src="resources/img/logout.png">Log Out</button></div></nav></div></div></div>' to be visible." type="expect">Expected '<div id="hubMenu" class="modal home" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><header class="header"><div class="container-fluid"><a class="label col-xs-6"><img src="resources/img/logo-grey.png" alt="amdocs-logo"></a><ul class="col-xs-6 headerMenu"><li><a class="searchButton"></a></li><li><div id="hubCloseButton" data-toggle="buttons"><a class="btn nav-toggle nav-toggle-wrapper active" href="#"></a></div></li></ul></div></header><div class="wrapper"><div class="scroller"><nav class="container-fluid"><ul class="mainNav row"><li class="col-xs-12"><a class="menuButton" data-page="highlights/mycases" href="#" title=""><img src="resources/img/highlights.png"> <span id="HighlightsLabel">Highlights<span></span></span></a></li><li class="col-xs-12"><a class="menuButton" data-page="cases/mycases" href="#" title=""><img src="resources/img/my-cases.png"> <span>My Cases</span></a></li><li class="col-xs-12"><a class="menuButton" data-page="community" href="#" title=""><img src="resources/img/community.png"> <span>Community</span></a></li><li class="col-xs-12"><a class="menuButton" data-page="documentation" href="#" title=""><img src="resources/img/documentation.png"> <span>Documentation</span></a></li><li class="col-xs-12"><a class="menuButton" data-page="contactus" href="#" title=""><img src="resources/img/contact-us.png"> <span>Contact Us</span></a></li></ul><div class="logoutButton"><button type="button"><img src="resources/img/logout.png">Log Out</button></div></nav></div></div></div>' to be visible.</failure>
+
+</testcase>
+
+
+-<testcase time="0.548" name="Click on highlights icon display highlights page and Close HubMenu" classname="Hub Menu">
+
+
+-<screenshots>
+
+<screenshot>test/jasmine/spec/test-hubMenu\Click on highlights icon display highlights page and Close HubMenu\highlights-1.png</screenshot>
+
+</screenshots>
+
+<failure message="Expected '<div id="highlights" class="appBody slick-slide highlights" index="0"><div class="tabsContainer"><main class="pageContainer"><div class="scroller"></div><script id="templateHighlightCaseItem" type="text/template"><section class="section" data-caseid='<%= caseId %>'> <h4 class="sectionHeader"> <%= caseTitle %> </h4> <ul class="details"> <li>ID <%= " " + caseId %> </li> <li>Status: <%= " " + caseStatus %> </li> <li>Severity: <%= " " + severity %> </li> <li class="detailsHighlight"><strong><%= lastEventDate %></strong> <%= lastEventName %> </li> </ul> </section></script><footer class="navbar-fixed-bottom sectionFooter"><a class="container menuButton" data-page="cases" data-i18n="highlight.cases.all"></a></footer></main></div></div>' to be visible." type="expect">Expected '<div id="highlights" class="appBody slick-slide highlights" index="0"><div class="tabsContainer"><main class="pageContainer"><div class="scroller"></div><script id="templateHighlightCaseItem" type="text/template"><section class="section" data-caseid='<%= caseId %>'> <h4 class="sectionHeader"> <%= caseTitle %> </h4> <ul class="details"> <li>ID <%= " " + caseId %> </li> <li>Status: <%= " " + caseStatus %> </li> <li>Severity: <%= " " + severity %> </li> <li class="detailsHighlight"><strong><%= lastEventDate %></strong> <%= lastEventName %> </li> </ul> </section></script><footer class="navbar-fixed-bottom sectionFooter"><a class="container menuButton" data-page="cases" data-i18n="highlight.cases.all"></a></footer></main></div></div>' to be visible.</failure>
+
+</testcase>
+
+</testsuite>
+
+</testsuites>
